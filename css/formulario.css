@@ -1,0 +1,46 @@
+*{
+    background-color: darkgray;
+}
+h1{
+    text-align: left;
+    padding-left: 80px;
+    font-size: 60px;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #fname , #lname, #city, #country{
+      width: 25%;
+  }
+  input[type=submit] {
+    width: 25%;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: skyblue;
+  }
+  
+  div {
+    border-radius: 5px;
+    
+    padding: 20px;
+  }
+
+.logo{
+    float: right;
+    padding-right: 150px;
+}

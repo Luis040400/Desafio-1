@@ -1,0 +1,172 @@
+/*Estilizando las filas*/
+.row{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+/*estilizando los div cuya clase comience con "col"*/
+div[class^="col-"]{
+    border: 1px solid #AAA;
+    padding-top: 5px;
+    scroll-padding-bottom: 5px;
+    
+}
+
+/*Para celulares (prefijo xs) el color de fondo será gris*/
+body{
+    background-color: #B0BEC5;
+}
+#header div{
+    background-color: darkgoldenrod;
+    padding: 5px;
+}
+
+#cuerpo1 div{
+    text-align: left;
+    font-size: 50px;
+    padding: 50px;
+    padding-bottom: 100px;
+   margin: 20px;
+    background-color: red;
+}
+  #cuerpo2 div{
+       text-align: center;
+       font-size: 50px;
+       padding: 50px;
+       padding-bottom: 100px;
+      margin: 20px;
+       background-color:lightblue;
+    }
+#cuerpo3 div{
+       text-align: right;
+       font-size: 50px;
+       padding: 50px;
+       padding-bottom: 100px;
+      margin: 20px;
+       background-color: red;
+  }
+    #footer1 div{
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+        padding-bottom: 4px;
+       margin: 20px;
+        background-color: yellow;
+    }
+    #footer2 div{
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+        padding-bottom: 4px;
+       margin: 20px;
+        background-color: yellow;
+    }
+@media(min-width: 768px){
+    body{
+        background-color: #FFB74D;
+    }
+    #header div{
+        background-color:lightblue;
+        padding: 25px;
+    }
+    
+    #cuerpo1 div{
+        text-align: left;
+        font-size: 50px;
+        padding: 50px;
+        padding-bottom: 100px;
+       margin: 20px;
+        background-color: red;
+    }
+      #cuerpo2 div{
+           text-align: right;
+           font-size: 50px;
+           padding: 50px;
+           padding-bottom: 100px;
+          margin: 20px;
+           background-color: red;
+        }
+  #cuerpo3 div{
+           text-align: center;
+           font-size: 50px;
+           padding: 50px;
+           padding-bottom: 100px;
+          margin: 20px;
+           background-color: green;
+      }
+        #footer1 div{
+            text-align: center;
+            font-size: 16px;
+            padding: 10px;
+            padding-bottom: 4px;
+           margin: 20px;
+            background-color: yellow;
+        }
+        #footer2 div{
+            text-align: center;
+            font-size: 16px;
+            padding: 10px;
+            padding-bottom: 4px;
+           margin: 20px;
+            background-color: yellow;
+        }
+}
+/*Para computadora con un ancho menor a 1200px (prefijo md) 
+el color de fondo será verde*/
+@media(min-width:992px){
+    body{
+        background-color: #81C784;
+
+    }
+   
+}
+/*Para computadoras con un ancho mayor o igual a 1200px(prefijo lg) el color de fondo será azul*/
+@media(min-width:1200px){
+    body{
+        background-color: lightseagreen;
+    }
+    #header div{
+        background-color: green;
+   
+    }
+    
+    #cuerpo1 div{
+     text-align: center;
+     font-size: 50px;
+     padding: 50px;
+     padding-bottom: 300px;
+    margin: 25px;
+     background-color: red;
+    }
+    #cuerpo2 div{
+        text-align: center;
+        font-size: 50px;
+        padding: 50px;
+        padding-bottom: 300px;
+       margin: 25px;
+        background-color: red;
+    }
+       #cuerpo3 div{
+        text-align: center;
+        font-size: 50px;
+        padding: 50px;
+        padding-bottom: 300px;
+       margin: 25px;
+        background-color: red;
+   }
+    #footer1 div{
+        text-align: right;
+        font-size: 16px;
+        padding: 10px;
+        padding-bottom: 4px;
+       margin: 20px;
+        background-color: yellow;
+    }
+    #footer2 div{
+        text-align: left;
+        font-size: 16px;
+        padding: 10px;
+        padding-bottom: 4px;
+       margin: 20px;
+        background-color: yellow;
+    }
+}
